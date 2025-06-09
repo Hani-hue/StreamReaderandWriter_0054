@@ -10,4 +10,12 @@ int main()
     // operasi file dalam mode menulis
     ofstream outfile;
     // menunjuk ke sebuah nama file untuk membuka
-}
+    outfile.open("Contohfile.txt");
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
+    // unlimited loop untuk menulis
+    while (true)
+    {
+        cout << "- ";
+    }
